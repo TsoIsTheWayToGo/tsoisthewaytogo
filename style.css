@@ -5,6 +5,12 @@ body {
   color: #505962
 }
 
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
 
 /* ----- Navigation ----- */
 .navbar {
@@ -12,7 +18,8 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(0, 0, 0, 0.6)!important;
+  background: rgba(2, 0, 0, 0.993)!important;/* to change color of navbar */
+  
 }
 .navbar-brand img {
   height: 2rem;
@@ -63,7 +70,7 @@ body {
   }
   .btn-lg {
     border-width: medium;
-    border-radius: 15px 15px 15px 15px;
+    /* border-radius: 15px 15px 15px 15px; */
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
     
@@ -90,8 +97,8 @@ body {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: rgb(101, 104, 103);
-  background-color: rgb(188, 194, 193);
+  border-color: #1ebba3;
+  background-color:#1ebba3;
   color: white;
 }
 .btn-secondary:hover,
@@ -101,7 +108,18 @@ body {
   color: white;
 }
 
+/* ----- Projects ----- */
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
 
+}
+.heading-underline {
+  
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
