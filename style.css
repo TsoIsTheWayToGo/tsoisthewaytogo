@@ -37,7 +37,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color:  #1ebba3;
+  color:  #cd5360;
 }
 
 /* ----- landing page ----- */
@@ -97,14 +97,14 @@ body {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1ebba3;
-  background-color:#1ebba3;
+  border-color: #cd5360;
+  background-color:#cd5360;
   color: white;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
+  border-color: #cd5360;
+  background-color: #cd5360;
   color: white;
 }
 
@@ -122,11 +122,11 @@ h3.heading {
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: #1ebba3;
+  background-color: #cd5360;
   margin: 0 auto 2rem;
 }
 .feature svg.svg-inline--fa {
-  color: #189582;
+  color: #cd5360;
 }
 .feature h3 {
   font-size: 1.3rem;
@@ -160,11 +160,11 @@ h3.heading {
   border-radius: 50%;
 }
 blockquote svg.svg-inline--fa {
-  color: #189582;
+  color: #cd5360;
   margin: 1rem;
 }
 .blogs-hr {
-  border-top: .05rem solid #1ebba3;
+  border-top: .05rem solid #cd5360;
 }
 
 
@@ -189,12 +189,41 @@ footer svg.svg-inline--fa {
   margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #189582!important;
+  color: #cd5360!important;
 }
 hr.socket {
   width: 100%;
   border-top: .2rem solid #63676d;
   margin-top: 3rem;
+}
+
+
+/* ----- Media queries -----*/
+@media (max-width: 767px) {
+    .caption h1 {
+    font-size: 2.3rem;  
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+    
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+  }
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    
+  }
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+  .blog img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
 }
 /*============ BOOTSTRAP BREAK POINTS:
 
